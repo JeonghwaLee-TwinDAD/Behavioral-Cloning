@@ -133,7 +133,7 @@ As for training,
 - I used Keras generator to train images and validation images.
 - I used Mean Squared Error(MSE) for the loss function to measure how close the model predicts to the given steering angle for each image.
 - I used Adam optimizer for optimization. 
-- I set batch size of 32 and 10 epochs.
+- I set batch size of 40 and 10 epochs.
 - I used ModelCheckpoint from Keras to save the model only if the validation loss is improved which is checked for every epoch.
 
 ## Evaluate performace
