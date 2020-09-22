@@ -139,7 +139,7 @@ As for training,
 I tried several model to see which one drives the best. For this, I set the save_best_only 
 training & validation loss | simulation
 :-------------------------:|:-------------------------:
-![loss](images/loss.png)   |  ![lake](images/lake2.gif)
+![loss](images/loss.PNG)   |  ![lake](images/lake2.gif)
 
 
 Here's a [link to my video result (lake_track)](./lake_track.mp4)
