@@ -3,7 +3,6 @@
 
 Note: This project makes use of a Udacity-developed driving simulator and training data collected from the simulator (neither of which is included in this repo).
 
-
 ## Project Description
 
 The objective is to apply for the deep learning principle to clone car driving behavior. It is a supervised regression problem between the car steering angles and the road images in front of a car. Those images were taken from three different camera angles which were in the center, the left and the right of the car. The neural network is based on [The NVIDIA model](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/), which has been proven to work in this problem domain. Not only did I apply for preprocessing of images, but the model is consisted of convolutional layers with Keras API.  
@@ -133,12 +132,22 @@ As for training,
 - I used Keras generator to train images and validation images.
 - I used Mean Squared Error(MSE) for the loss function to measure how close the model predicts to the given steering angle for each image.
 - I used Adam optimizer for optimization. 
-- I set batch size of 40 and 10 epochs.
+- I set batch size of 40 and 100 epochs.
 - I used ModelCheckpoint from Keras to save the model only if the validation loss is improved which is checked for every epoch.
 
 ## Evaluate performace
 I tried several model to see which one drives the best. For this, I set the save_best_only 
+training & validation loss | simulation
+:-------------------------:|:-------------------------:
+![loss](images/loss.png)   |  ![lake](images/lake.gif)
 
+
+Here's a [link to my video result (lake_track)](./lake_track.mp4)
+
+## Discussion
+
+ I think that it is a little unstable model and need a fine tuning in the future. I have learned a lot to simulate the behavioral coloning for AV. I am expected to move forword to control vehicle more precisely.
+ 
 ## References
 - NVIDIA model: https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/
 - Udacity Self-Driving Car Simulator: https://github.com/udacity/self-driving-car-sim
