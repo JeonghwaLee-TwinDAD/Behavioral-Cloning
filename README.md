@@ -137,7 +137,7 @@ As for training,
 
 ## Evaluate performace
 I tried several model to see which one drives the best. For this, I set the save_best_only 
-training & validation loss | simulation
+
 :-------------------------:|:-------------------------:
 ![loss](images/loss.PNG)   |  <img src="images/lake2.gif" alt="HTML5 Icon" width=700 height=300>
 
