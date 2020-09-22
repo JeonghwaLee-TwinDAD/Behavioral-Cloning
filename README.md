@@ -142,7 +142,7 @@ training & validation loss | simulation
 ![loss](images/loss.PNG)   |  ![lake](images/lake2.gif)
 
 
-Here's a [link to my video result (lake_track)](./lake_track.mp4)
+Here's a [link to my video result (lake_track)](lake_track.mp4)
 
 ## Discussion
 
