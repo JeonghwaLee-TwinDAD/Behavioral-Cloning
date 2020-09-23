@@ -9,7 +9,7 @@ The objective is to apply for the deep learning principle to clone car driving b
 
 ### Files included
 
-- `model.py` The script used to create and train the model.
+- `model.ipynb` The script used to create and train the model.
 - `drive.py` The script to drive the car
 - `utils.py` The script to provide image preprocess and augumentation
 - `model.h5` The model weights.
@@ -40,7 +40,7 @@ python drive.py model.h5
 You'll need the data folder which contains the training images.
 
 ```python
-python model.py
+!python model.ipynb
 ```
 
 This will generate a file `model-<epoch>.h5` whenever the performance in the epoch is better than the previous best.  For example, the first epoch will generate a file called `model-000.h5`.
