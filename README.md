@@ -140,7 +140,7 @@ I tried several model to see which one drives the best. For this, I set the save
 
 training & validation loss | simulation
 :-------------------------:|:-------------------------:
-![loss](images/loss.PNG)   |  <img src="images/lake2.gif" alt="lake" width=700 height=300>
+![loss](images/loss.png)   |  <img src="images/lake2.gif" alt="lake" width=700 height=300>
 
 ## Discussion
 
